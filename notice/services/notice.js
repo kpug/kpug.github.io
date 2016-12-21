@@ -1,7 +1,7 @@
 'use strict';
 angular.module('side.notice').factory('Notice', function($resource, $http) {
   var Notice;
-  Notice = $resource('notice/notice.json', {}, {
+  Notice = $resource('config/notice/notice.json', {}, {
     list: {
       method: 'GET',
       isArray: true
@@ -10,7 +10,7 @@ angular.module('side.notice').factory('Notice', function($resource, $http) {
   Notice.prototype.get = function(date) {
     return $http({
       method: 'GET',
-      url: 'notice/' + date + '.md'
+      url: 'config/notice/' + date + '.md'
     });
   };
   return Notice;
