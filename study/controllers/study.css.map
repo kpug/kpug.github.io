@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACJ,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,GAAG,EAAE,IAAI;EACT,MAAM,EAAE,GAAG;EACX,YAAY,EAAE,KAAK;;AAErB,aAAa;EACX,WAAW,EAAE,KAAK",
+"sources": ["../../../app/study/controllers/study.controller.sass"],
+"names": [],
+"file": "study.css"
+}

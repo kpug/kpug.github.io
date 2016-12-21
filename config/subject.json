@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Play for scala",
+    "route" : "play-for-scala",
+    "date": "2013.01.01 ~ 2013.10.31",
+    "member": [],
+    "chapters": [
+      {
+        "title": "1. Hello 플레이",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/1.%20Hello%20%ED%94%8C%EB%A0%88%EC%9D%B4.md"
+      },
+      {
+        "title": "2. 플레이컨트롤러",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/2.%20%ED%94%8C%EB%A0%88%EC%9D%B4%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC.md"
+      },
+      {
+        "title": "2.1 플레이컨트롤러-Warmingup",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/2.1%20%ED%94%8C%EB%A0%88%EC%9D%B4%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC-Warmingup.md"
+      },
+      {
+        "title": "3. 데이터베이스 사용",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/3.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%82%AC%EC%9A%A9.md"
+      },
+      {
+        "title": "4. 뷰템플릿",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/4.%20%EB%B7%B0%ED%85%9C%ED%94%8C%EB%A6%BF.md"
+      },
+      {
+        "title": "5. 입력값 검증하기",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/5.%20%EC%9E%85%EB%A0%A5%EA%B0%92%20%EA%B2%80%EC%A6%9D%ED%95%98%EA%B8%B0.md"
+      },
+      {
+        "title": "6. 단일페이지애플리케이션개발",
+        "url": "https://raw.githubusercontent.com/kpug/playforscala/master/wiki/6.%20%EB%8B%A8%EC%9D%BC%ED%8E%98%EC%9D%B4%EC%A7%80%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B0%9C%EB%B0%9C.md"
+      }
+    ]
+  },
+  {
+    "title": "Akka in Action",
+    "route" : "akka-in-action",
+    "date": "2015.06.01 ~ 2015.10.12",
+    "member": [],
+    "chapters": [
+      {
+        "title": "1. Introducing Akka",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/1.%20Introducing%20Akka.md"
+      },
+      {
+        "title": "2. Up-and-running",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/2.%20Up-and-running.md"
+      },
+      {
+        "title": "3. Test-driven development with Actors",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/3-test-driven-development-with-actors.asc"
+      },
+      {
+        "title": "4.Fault tolerance",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/4-fault-tolerance.asc"
+      },
+      {
+        "title": "5. Future",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/5.%20Futures.md"
+      },
+      {
+        "title": "6. Your first distributed akka app",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/6-your-first-distributed-akka-app.asc"
+      },
+      {
+        "title": "7. Configuration, logging, and deployment",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/7-configuration-logging-and-deployment.asc"
+      },
+      {
+        "title": "8. System Structure",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/8-system-structure.asc"
+      },
+      {
+        "title": "9. Routing Messages",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/9-routing-messages.asc"
+      },
+      {
+        "title": "10. Message Channels",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/10.%20Message%20Channels.md"
+      },
+      {
+        "title": "11. Finite state machines and agents",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/11.%20Finite%20state%20machines%20and%20agents.md"
+      },
+      {
+        "title": "12. System Integration",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/12-system-integrations.asc"
+      },
+      {
+        "title": "13. Clustering",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/13-clustering.asc"
+      },
+      {
+        "title": "14 Actor persistence",
+        "url": "https://raw.githubusercontent.com/kpug/akka-in-action/master/wiki/14-actor-persistence.asc"
+      }
+    ]
+  }
+]

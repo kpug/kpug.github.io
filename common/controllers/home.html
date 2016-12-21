@@ -1,0 +1,42 @@
+
+<div class="home">
+  <section class="jumbotron text-xs-center">
+    <div class="container">
+      <h1 class="jumbotron-heading headline">Put your heart, mind, and soul into even your smallest acts.</h1><br/>
+      <p class="lead text-muted">한국 플레이! 사용자 그룹 홈페이지에 오신 것을 환영합니다.</p>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>What is KPUG?</h2>
+        <p class="lead text-muted">한국 플레이 사용자 그룹은 <a href="https://www.playframework.com/" target="_blank">Play framework</a>를 중심으로 <a href="https://www.scala-lang.org/" target="_blank">Scala Language, </a><a href="http://akka.io/" target="_blank">Akka Framework, </a><a href="https://en.wikipedia.org/wiki/Reactive_programming" target="_blank">Reactive Programming </a>에 대해서 학습하고 연구하는 모임입니다.</p>
+        <p class="lead text-muted">더 나아가 개인의 역량 강화을 위하여, 유용한 정보를 정리, 공유하여 더 쉽게 깊이 있는 학문을 습득할 수 있도록 돕는데 그 목적이 있습니다.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>공지사항</h2>
+        <ul>
+          <li ng-repeat="notice in vm.notices"><span><a ui-sref="notice({date: notice.date})">{{ notice.date }} {{ notice.title }}</a></span></li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h2>Release note</h2>
+        <ul>
+          <li>1</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-xs-center">We loved</h2>
+        <p class="text-xs-center">
+          <play-logo style="width:200px;height:100px"></play-logo>
+          <akka-logo style="width:200px;height:100px"></akka-logo>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<js-footer></js-footer>

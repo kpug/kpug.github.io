@@ -1,0 +1,8 @@
+
+<div class="sidebar-wrapper">
+  <p></p>
+  <p class="text-lg-center" style="font-size:24px">{{ subject.title }}</p>
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand" ng-repeat="chapter in subject.chapters"><a ui-sref="study({subject: subject.route, chapter: $index})">{{ chapter.title }}</a></li>
+  </ul>
+</div>

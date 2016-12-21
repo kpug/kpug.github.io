@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,mBAAE;EACA,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI",
+"sources": ["../../../app/study/directives/sidebar.directive.sass"],
+"names": [],
+"file": "sidebar.css"
+}

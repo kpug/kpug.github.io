@@ -1,11 +1,54 @@
-<html>
-    <title>
-        <head>
-            Korea Play! User Group
-        </head>
-    </title>
-    <body>
-        Hello world
-    </body>
+<!DOCTYPE html>
+<html ng-app="side">
+  <head>
+    <title>Korea Play! User Group</title>
+    <!-- bower:css-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/github-markdown-css/github-markdown.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower-->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/common/controllers/home.css">
+    <link rel="stylesheet" href="/common/directives/header.css">
+    <link rel="stylesheet" href="/members/controllers/members.css">
+    <link rel="stylesheet" href="/study/controllers/study.css">
+    <link rel="stylesheet" href="/study/directives/sidebar.css">
+    <!-- endinjector -->
+  </head>
+  <body>
+    <js-header></js-header>
+    <ui-view></ui-view>
+    <script src="//localhost:35729/livereload.js"></script>
+    <!-- bower:js-->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/tether/dist/js/tether.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/showdown/dist/showdown.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/angular-asciidoc-directive/dist/asciidoc.all.js"></script>
+    <!-- endbower-->
+    <!-- injector:js -->
+    <script src="/app.js"></script>
+    <script src="/common/controllers/home.js"></script>
+    <script src="/common/directives/akka-logo.js"></script>
+    <script src="/common/directives/footer.js"></script>
+    <script src="/common/directives/header.js"></script>
+    <script src="/common/directives/play-logo.js"></script>
+    <script src="/config/menu.js"></script>
+    <script src="/members/app.js"></script>
+    <script src="/members/controllers/members.js"></script>
+    <script src="/members/services/member.js"></script>
+    <script src="/notice/app.js"></script>
+    <script src="/notice/controllers/notice.js"></script>
+    <script src="/notice/services/notice.js"></script>
+    <script src="/study/app.js"></script>
+    <script src="/study/controllers/study.js"></script>
+    <script src="/study/controllers/wrap.js"></script>
+    <script src="/study/directives/sidebar.js"></script>
+    <script src="/study/services/study.js"></script>
+    <!-- endinjector -->
+  </body>
 </html>
-

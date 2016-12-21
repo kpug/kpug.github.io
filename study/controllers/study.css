@@ -1,0 +1,12 @@
+.aside {
+  position: fixed;
+  width: 350px;
+  height: 100%;
+  top: 50px;
+  border: 1px;
+  border-style: solid; }
+
+.content-body {
+  margin-left: 350px; }
+
+/*# sourceMappingURL=study.css.map */

@@ -1,0 +1,21 @@
+
+<div class="container">
+  <div class="row member-row flex-items-xs-bottom" ng-repeat="member in vm.members">
+    <div class="col-sm-3">
+      <div class="col-sm-12">
+        <p class="text-xs-center"><img class="photo" ng-if="member.photo"/><i class="fa fa-user-o fa-5x" ng-if="!member.photo" aria-hidden="true"></i></p>
+      </div>
+      <div class="col-sm-12">
+        <p class="text-xs-center nickname">{{ member.name }}</p>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <ul>
+        <li class="list-members"><span class="fa-icon" ng-if="member.github"><a ng-href="http://www.github.com/{{member.github}}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></span><span class="fa-icon" ng-if="member.facebook"><a ng-href="http://www.facebook.com/{{member.facebook}}" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></span><span class="fa-icon" ng-if="member.linkedIn"><a ng-href="" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></span><span class="fa-icon" ng-if="member.webPage"><a ng-href="" target="_blank"><i class="fa fa-address-book fa-2x" aria-hidden="true"></i></a></span></li>
+        <li class="list-members">
+          <p class="comment">{{ member.comment }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
