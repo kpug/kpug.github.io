@@ -16,22 +16,32 @@
     </div>
     <div class="row">
       <div class="col-sm-6">
-        <h2>공지사항</h2>
-        <ul>
-          <li ng-repeat="notice in vm.notices"><span><a ui-sref="notice({date: notice.date})">{{ notice.date }} {{ notice.title }}</a></span></li>
-        </ul>
+        <h2>Apply for kpug :)</h2>
+        <h2></h2>
+        <p class="lead text-muted">
+          플레이 프레임워크를 비롯한 아래 기술들에 관심이 있다면 저희와 함께 하실 수 있습니다.
+          함께 하는 방법은 어렵지 않습니다.
+          아래에 링크들을 통해 한국 플레이! 사용자 그룹의 일원이 될 수 있습니다.<br/><br/>플레이 사용자! 그룹의 일원이 되시면 :
+          <ul style="list-style-type: circle">
+            <li>커뮤니티의 일원으로 활동하며 다양한 경험을 쌓을 수 있습니다.</li>
+            <li>여러 문제에 대해서 도움을 받을 수 있습니다.</li>
+            <li>더 멋진 개발자가 될 수 있습니다.</li>
+          </ul>
+        </p>
+        <p><span class="fa-icon"><a ng-href="http://www.github.com/kpug" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></span><span class="fa-icon"><a ng-href="https://www.facebook.com/groups/playuser" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></span><span class="fa-icon"><a ng-href="http://kpug.slack.com" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a></span></p>
       </div>
       <div class="col-sm-6">
-        <h2>Release note</h2>
-        <ul>
-          <li>1</li>
+        <h2>공지사항</h2>
+        <ul style="list-style-type: circle">
+          <li ng-repeat="notice in vm.notices"><span><a ui-sref="notice({date: notice.date})">{{ notice.date }} {{ notice.title }}</a></span></li>
         </ul>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <h2 class="text-xs-center">We loved</h2>
-        <p class="text-xs-center">
+        <h2>We loved</h2>
+        <p class="lead text-muted">한국 플레이! 사용자 그룹의 사람들은 아래 기술들에 관심을 가지고 있습니다.</p>
+        <p><img src="assets/images/scala-logo.png" style="height:100px;vertical-align:top"/>
           <play-logo style="width:200px;height:100px"></play-logo>
           <akka-logo style="width:200px;height:100px"></akka-logo>
         </p>
