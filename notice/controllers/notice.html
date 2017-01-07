@@ -1,11 +1,13 @@
 
 <div class="container">
   <h1>공지사항</h1>
+  <hr/>
   <p>
     <ul>
-      <li>Date : {{ vm.date }}</li>
+      <li>작성일 : {{ vm.date }}</li>
     </ul>
   </p>
+  <hr/>
   <div class="col-sm-12 markdown">
     <p ng-bind-html="vm.noticeContent"></p>
   </div>

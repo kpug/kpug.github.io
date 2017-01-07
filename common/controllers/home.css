@@ -8,4 +8,9 @@ body {
 h2 {
   margin-bottom: 30px; }
 
+fa-icon a {
+  color: red !important; }
+fa-icon a:hover {
+  color: yellow; }
+
 /*# sourceMappingURL=home.css.map */
