@@ -2,7 +2,7 @@ body {
   padding-top: 80px; }
 
 .headline {
-  font-family: cursive;
+  font-family: inherit;
   font-style: italic; }
 
 h2 {
@@ -12,5 +12,11 @@ fa-icon a {
   color: red !important; }
 fa-icon a:hover {
   color: yellow; }
+
+.row {
+  margin-bottom: 50px; }
+
+.icon-links a i {
+  color: #8bc94b; }
 
 /*# sourceMappingURL=home.css.map */
