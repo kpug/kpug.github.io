@@ -10,7 +10,7 @@ angular.module('side').directive('jsHeader', function() {
       var vm;
       vm = this;
       vm.subjects = [];
-      vm.title = 'Korea! Play User Group';
+      vm.title = '한국 플레이! 사용자 그룹';
       vm.navigation = menu;
       Study.query(function(subjects) {
         return vm.subjects = subjects;

@@ -1,11 +1,9 @@
 
-<div class="navbar navbar-fixed-top navbar-dark bg-success"><a class="navbar-brand" href="#">{{ vm.title }}</a>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top"><a class="navbar-brand" href="#">{{ vm.title }}</a>
   <ul class="nav navbar-nav">
+    <li class="nav-item"></li>
     <li class="nav-item dropdown" ng-repeat="elem in vm.navigation"><a class="nav-link" ng-if="elem.type === undefined" ui-sref="{{elem.link}}" ui-sref-active="active">{{ elem.name }}</a><a class="nav-link dropdown-toggle" id="supportedContentDropdown" ng-if="elem.type == &quot;dropdown&quot;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-class="{active:vm.studyActive}" ui-sref-active="active">{{ elem.name }}</a>
       <div class="dropdown-menu" aria-labelledby="supportedContentDropdown"><span ng-repeat="subject in vm.subjects"><a class="dropdown-item" ui-sref="study({subject: subject.route})">{{ subject.title }}</a></span></div>
     </li>
   </ul>
-  <form class="float-xs-right">
-    <input class="form-control" type="text" placeholder="Search..."/>
-  </form>
-</div>
+</nav>

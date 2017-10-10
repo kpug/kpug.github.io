@@ -1,5 +1,5 @@
-body {
-  padding-top: 80px; }
+.jumbotron-heading {
+  color: white; }
 
 .headline {
   font-family: inherit;
@@ -18,5 +18,8 @@ fa-icon a:hover {
 
 .icon-links a i {
   color: #8bc94b; }
+
+.home {
+  top: 100px; }
 
 /*# sourceMappingURL=home.css.map */
